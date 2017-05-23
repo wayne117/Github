@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>鑫鼎国际，鑫鼎国际娱乐城</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+<link rel="stylesheet" type="text/css" href="css/remodal.css" />
+<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+<script type="text/javascript" src="js/remodal.min.js"></script>
+
+</head><body>
+<header>
+<div class="header_bg">
+<div class="wrap">
+<div class="wrapper">
+  <div class="h_nav">
+		<ul class="nav_back">
+	        <li class="active"><a href="Profile_Main.html"><img src="images/left_arrow.png">返回</a></li>
+            <span>帐号资料</span>
+	   </ul>
+	</div>
+	<div class="clear"></div>
+</div>
+</div>
+</div>
+<!--start header_btm -->
+</div>
+<div class="content_bg">
+<div class="wrap">
+<div class="wrapper">
+	<div class="content">
+       <div style="position: absolute;top: 30%;left: 40%;z-Index:1989;" id="wload" class="w-load">
+         <div id="spinDiv" class="spin">
+         </div>
+       </div>    
+    	
+       <div class="contact-form">
+		   <form method="post" action="">
+
+            <div class="wordtitle">用户昵称<label style="color: red;">*</label></div>
+            <div><span>
+            <input type="text" placeholder="输入昵称" class="textbox" id="txtNick" maxlength="12" value="测试" name="ctl00$ctl00$ContentPlaceHolder1$ChildContent1$txtNick">            
+            </span></div>
+
+            <div class="wordtitle">手机号码<label style="color: red;">*</label></div>
+            <div><span>
+            <input type="text" placeholder="输入手机号" class="textbox" id="txtPhone" maxlength="11" value="13465803755" name="ctl00$ctl00$ContentPlaceHolder1$ChildContent1$txtPhone">
+            </span></div>
+
+            <div class="wordtitle">QQ<label style="color: red;">*</label></div>
+            <div><span>
+            <input type="text" placeholder="输入QQ" class="textbox" id="txtQQ" maxlength="14" value="77658421" name="ctl00$ctl00$ContentPlaceHolder1$ChildContent1$txtQQ">
+            </span></div>
+
+            <div class="wordtitle">微信</div>
+            <div><span>
+            <input type="text" placeholder="输入微信号" class="textbox" id="txtWeiXin" maxlength="21" value="675432" name="ctl00$ctl00$ContentPlaceHolder1$ChildContent1$txtWeiXin">
+            </span></div>
+
+            <div class="wordtitle">邮箱地址<label style="color: red;">*</label></div>
+            <div><span>
+            <input type="text" placeholder="输入邮箱" class="aspNetDisabled textbox" disabled="disabled" id="txtMail" value="7*432@qq.com" name="ctl00$ctl00$ContentPlaceHolder1$ChildContent1$txtMail">
+            </span></div>
+			
+            <input id="lnkChange" class="reg_btn" type="submit" value="确认修改" href="javascript:__doPostBack('ctl00$ctl00$ContentPlaceHolder1$ChildContent1$lnkChange','')">
+            </form>
+	</div>
+</div>
+</div>
+</div>
+  
+ <div class="footpanel">
+   <ul>
+	<li>
+        <div class="footMenuTop"><a href="Game.html"><i class="fa fa-gamepad fa-13x"></i></div>
+        <div class="footMenuBottom">进入游戏</a></div>
+    </li>
+	<li>
+        <div class="footMenuTop"><a href="SaveMoney_Main.html"><i class="fa fa-bolt fa-13x"></i></div>
+        <div class="footMenuBottom">快速充值</a></div>
+    </li>
+    <li>
+        <div class="footMenuTop"><a href="Transfer_Indoor.html"><i class="fa fa-random fa-12x"></i></div>
+        <div class="footMenuBottom">户内转帐</a></div>
+    </li>
+	<li>
+        <div class="footMenuTop"><a href="#ServiceONline"><i class="fa fa-whatsapp fa-13x"></i><div>
+        <div class="footMenuBottom">在线客服</a></div>
+    </li>     
+    <li>
+        <div class="footMenuTop"><a href="Member.html"><i class="fa fa-user fa-12x"></i></div>
+        <div class="footMenuBottom">会员中心</a></div>
+    </li>
+   </ul>
+ </div>
+ 
+ <div class="remodal" data-remodal-id="modal" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+     <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+     <div class="modal1Title">
+	 <p></p><input type="text" onblur="if(this.value =='') this.value ='帐号'" onfocus="if(this.value=='帐号')this.value=''" value="帐号" class="txt username" name="LoginName" id="LoginName">
+     <p></p><input type="password" onblur="if(this.value =='') this.value ='******'" onfocus="if(this.value=='******')this.value=''" value="******" class="txt password" name="Password" id="Password">
+     </div>
+     <button data-remodal-action="confirm" class="remodal-confirm">确认</button>
+ </div>
+ 
+ 
+ <div class="remodal" data-remodal-id="ServiceONline">
+    <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+    <h2>在线客服</h2>
+       <div class="contact-form">
+		   <form method="post" action="">
+
+            <div class="wordtitle">会员帐号</div>
+			<div><span><input id="userName" type="text" class="textbox" runat="server" placeholder=""></span></div>
+			
+            <div class="wordtitle">输入您的讯息</div>
+			<div><span><input id="userPhone" type="message" class="textbox" runat="server" placeholder=""></span></div>
+			
+	</div>
+    <br>
+     <input id="btnSave" class="remodal-confirm" type="submit" value="开始对话">
+ </div>
+ 
+ 
+ <div class="remodal" data-remodal-id="ServiceQQ">
+    <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+    <h2>QQ客服</h2>
+       <div class="contact-form">
+		   <form method="post" action="">
+
+            <div class="wordtitle">会员帐号</div>
+			<div><span><input id="userName" type="text" class="textbox" runat="server" placeholder=""></span></div>
+			
+            <div class="wordtitle">输入您的讯息</div>
+			<div><span><input id="userPhone" type="message" class="textbox" runat="server" placeholder=""></span></div>
+			
+	</div>
+    <br>
+     <input id="btnSave" class="remodal-confirm" type="submit" value="开始对话">
+ </div>
+     
+</body>
+
+</html>

@@ -1,0 +1,245 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>鑫鼎国际，鑫鼎国际娱乐城</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+<link rel="stylesheet" type="text/css" href="css/remodal.css" />
+<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+<script type="text/javascript" src="js/remodal.min.js"></script>
+
+</head><body>
+<header>
+<div class="header_bg">
+<div class="wrap">
+<div class="wrapper">
+  <div class="h_nav">
+		<ul class="nav_back">
+	        <li class="active"><a href="GetMoney_Main.html"><img src="images/left_arrow.png">返回</a></li>
+            <span>提款</span>
+	   </ul>
+	</div>
+	<div class="clear"></div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="content_bg">
+<div class="wrap">
+<div class="wrapper">
+	<div class="content">
+<div style="position: absolute;top: 30%;left: 40%;z-Index:1989;" id="wload" class="w-load">
+    <div id="spinDiv" class="spin">
+    </div>
+</div>    	
+       <div class="contact-form">
+		   <form method="post" action="contact-post.html">
+           
+			<div class="am-radio">
+            <div class="wordtitle">所属银行</div>
+            <div class="am-form-group">
+            <label for="doc-select-1"></label>
+            
+<select class="aspNetDisabled select" disabled="disabled" type="text" id="ddlBankList" name="ctl00$ctl00$ContentPlaceHolder1$ChildContent1$ddlBankList">
+	<option value="工商银行" selected="selected">工商银行</option>
+	<option value="建设银行">建设银行</option>
+	<option value="农业银行">农业银行</option>
+	<option value="交通银行">交通银行</option>
+	<option value="招商银行">招商银行</option>
+	<option value="光大银行">光大银行</option>
+	<option value="浦发银行">浦发银行</option>
+	<option value="兴业银行">兴业银行</option>
+	<option value="华夏银行">华夏银行</option>
+	<option value="中国银行">中国银行</option>
+	<option value="平安银行">平安银行</option>
+	<option value="广发银行">广发银行</option>
+	<option value="邮政银行">邮政银行</option>
+	<option value="中信银行">中信银行</option>
+
+</select>            
+           </div>
+           
+            <div class="pure-controls">
+            <label for="cb" class="pure-checkbox">
+            
+            <input type="checkbox" class="CHbox" disabled="disabled" checked="checked" id="ckBind" name="ctl00$ctl00$ContentPlaceHolder1$ChildContent1$ckBind">         
+            <label style="unicode-bidi: text-bottom; color: #7c7c7c;" for="ckBind">
+            绑定提款卡</label> </div>
+
+            <div class="wordtitle">银行卡号</div>
+            <div><span>
+            <input type="text" readonly placeholder="输入银行卡号码" id="txtBankCardNo" maxlength="22" value="61***632" name="ctl00$ctl00$ContentPlaceHolder1$ChildContent1$txtBankCardNo" autocomplete="off">            
+            </span></div>
+            
+            <div class="wordtitle">开户省市</div>
+            <div><span>
+            <input type="text" ov="请点击选择开户省市" placeholder="请点击选择开户省市" autocomplete="off" onfocus="this.blur()" class="textbox city_input inputFocus proCityQueryAll proCitySelAll" id="txtCity" maxlength="20" name="ctl00$ctl00$ContentPlaceHolder1$ChildContent1$txtCity">            
+            </span></div>
+
+            <div class="wordtitle">开户网点</div>
+            <div><span>
+            <input type="text" readonly placeholder="输入开户网点" id="txtNetwork" maxlength="30" value="深圳" name="ctl00$ctl00$ContentPlaceHolder1$ChildContent1$txtNetwork">            
+            </span></div>
+            
+            <span style="color: red;text-align: left; margin-bottom: 10px; font-size: 14px;" id="NoCityValue">当前您没有选择开户省市,您可以在'提款'的时候把相应的'开户省市'填上即可!</span>            
+            
+            <span id="lbl_Status"></span>
+            <input type="submit" value="解绑银行卡"  id="btnUnBind" href="/Safe/UnBindDrawBank.aspx">
+            </form>
+            
+            <div class="remark">
+                  
+                  温馨提示：<br>
+               <ul>
+                  <li>已经绑定玩家提款卡，如需要更改请按以下步骤操作；</li>
+                      <span>➊.填写有效的密保问题.<a href="Profile_QA.html">马上前往>></a></span>
+                      <span>➋.用旧提款卡进行一笔有效的提款；<a href="GetMoney.html">马上前往>></a></span>
+                  <li>为了您的提款能及时到帐，建议使用工商银行卡；</li>
+                  <li>已解绑过的银行卡不能再次绑定；</li>
+                  <li>非工商银行卡，单笔提款最高50,000.00。</li>
+               </ul>
+		 </div>
+         
+<div class="provinceCityAll">
+                                            <div class="tabs clearfix">
+                                                <ul class="">
+                                                    <li><a tb="hotCityAll" class="current" href="javascript:">热门城市</a></li>
+                                                    <li><a tb="provinceAll" href="javascript:">省份</a></li>
+                                                    <li><a id="cityAll" tb="cityAll" href="javascript:">城市</a></li>
+                                                    <li><a id="countyAll" tb="countyAll" href="javascript:">区县</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="con">
+                                                <div class="hotCityAll invis">
+                                                    <div class="pre">
+                                                        <a></a>
+                                                    </div>
+                                                    <div class="list">
+                                                        <ul>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="next">
+                                                        <a class="can"></a>
+                                                    </div>
+                                                </div>
+                                                <div class="provinceAll invis">
+                                                    <div class="pre">
+                                                        <a></a>
+                                                    </div>
+                                                    <div class="list">
+                                                        <ul>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="next">
+                                                        <a class="can"></a>
+                                                    </div>
+                                                </div>
+                                                <div class="cityAll invis">
+                                                    <div class="pre">
+                                                        <a></a>
+                                                    </div>
+                                                    <div class="list">
+                                                        <ul>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="next">
+                                                        <a class="can"></a>
+                                                    </div>
+                                                </div>
+                                                <div class="countyAll invis">
+                                                    <div class="pre">
+                                                        <a></a>
+                                                    </div>
+                                                    <div class="list">
+                                                        <ul>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="next">
+                                                        <a class="can"></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>         
+	</div>
+</div>
+</div>
+</div>
+
+
+ <div class="footpanel">
+   <ul>
+	<li>
+        <div class="footMenuTop"><a href="Game.html"><i class="fa fa-gamepad fa-13x"></i></div>
+        <div class="footMenuBottom">进入游戏</a></div>
+    </li>
+	<li>
+        <div class="footMenuTop"><a href="SaveMoney_Main.html"><i class="fa fa-bolt fa-13x"></i></div>
+        <div class="footMenuBottom">快速充值</a></div>
+    </li>
+    <li>
+        <div class="footMenuTop"><a href="Transfer_Indoor.html"><i class="fa fa-random fa-12x"></i></div>
+        <div class="footMenuBottom">户内转帐</a></div>
+    </li>
+	<li>
+        <div class="footMenuTop"><a href="#ServiceONline"><i class="fa fa-whatsapp fa-13x"></i><div>
+        <div class="footMenuBottom">在线客服</a></div>
+    </li>     
+    <li>
+        <div class="footMenuTop"><a href="Member.html"><i class="fa fa-user fa-12x"></i></div>
+        <div class="footMenuBottom">会员中心</a></div>
+    </li>
+   </ul>
+ </div>
+   
+ <div class="remodal" data-remodal-id="modal" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+     <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+     <div class="modal1Title">
+	 <p></p><input type="text" onblur="if(this.value =='') this.value ='帐号'" onfocus="if(this.value=='帐号')this.value=''" value="帐号" class="txt username" name="LoginName" id="LoginName">
+     <p></p><input type="password" onblur="if(this.value =='') this.value ='******'" onfocus="if(this.value=='******')this.value=''" value="******" class="txt password" name="Password" id="Password">
+     </div>
+     <button data-remodal-action="confirm" class="remodal-confirm">确认</button>
+ </div>
+ 
+ 
+ <div class="remodal" data-remodal-id="ServiceONline">
+    <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+    <h2>在线客服</h2>
+       <div class="contact-form">
+		   <form method="post" action="">
+
+            <div class="wordtitle">会员帐号</div>
+			<div><span><input id="userName" type="text" class="textbox" runat="server" placeholder=""></span></div>
+			
+            <div class="wordtitle">输入您的讯息</div>
+			<div><span><input id="userPhone" type="message" class="textbox" runat="server" placeholder=""></span></div>
+			
+	</div>
+    <br>
+     <input id="btnSave" class="remodal-confirm" type="submit" value="开始对话">
+ </div>
+ 
+ 
+ <div class="remodal" data-remodal-id="ServiceQQ">
+    <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+    <h2>QQ客服</h2>
+       <div class="contact-form">
+		   <form method="post" action="">
+
+            <div class="wordtitle">会员帐号</div>
+			<div><span><input id="userName" type="text" class="textbox" runat="server" placeholder=""></span></div>
+			
+            <div class="wordtitle">输入您的讯息</div>
+			<div><span><input id="userPhone" type="message" class="textbox" runat="server" placeholder=""></span></div>
+			
+	</div>
+    <br>
+     <input id="btnSave" class="remodal-confirm" type="submit" value="开始对话">
+ </div>
+     
+</body>
+
+</html>

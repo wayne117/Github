@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>鑫鼎国际，鑫鼎国际娱乐城</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+<link rel="stylesheet" type="text/css" href="css/remodal.css" />
+<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+<script type="text/javascript" src="js/remodal.min.js"></script>
+
+</head><body>
+<header>
+<div class="header_bg">
+<div class="wrap">
+<div class="wrapper">
+  <div class="h_nav">
+		<ul class="nav_back">
+	        <li class="active"><a href="SaveMoney_Main.html"><img src="images/left_arrow.png">返回</a></li>
+            <span>在线支付</span>
+	   </ul>
+	</div>
+	<div class="clear"></div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="content_bg">
+<div class="wrap">
+<div class="wrapper">
+	<div class="content">	
+       <div class="contact-form">
+		   <form method="post" action="contact-post.html">
+           
+			<div class="am-radio">
+            <div class="wordtitle">选择银行</div>
+            <div class="am-form-group">
+            <label for="doc-select-1"></label>
+            <select id="ddlPayment" name="ctl00$ctl00$ContentPlaceHolder1$ChildContent1$ddlPayment" type="text">
+	<option value="0">请选择银行</option>
+	<option value="1002">工商银行</option>
+	<option value="1006">民生银行</option>
+	<option value="1001">招商银行</option>
+	<option value="1003">建设银行</option>
+	<option value="1004">浦发银行</option>
+	<option value="1005">农业银行</option>
+	<option value="1009">兴业银行</option>
+	<option value="1020">交通银行</option>
+	<option value="1022">光大银行</option>
+	<option value="1026">中国银行</option>
+	<option value="1032">北京银行</option>
+	<option value="1035">平安银行</option>
+	<option value="1036">广发银行</option>
+	<option value="1039">中信银行</option>
+	<option value="1038">邮政银行</option>
+	<option value="1050">华夏银行</option>
+	<option value="1059">上海银行</option>
+            </select>
+           <span class="am-form-caret"></span>
+           </div>
+			
+            <div class="wordtitle">存款金额</div>
+            <div><span>
+                <input type="text"  placeholder="存款金额" onafterpaste="if(isNaN(value))execCommand('undo')" onkeyup="if(isNaN(value))execCommand('undo')" class="textbox" id="txtPayAmount" maxlength="9" name="ctl00$ctl00$ContentPlaceHolder1$ChildContent1$txtPayAmount">            
+            </span></div>
+            
+            <input id="btnConfirm" class="reg_btn" type="submit" value="确认" href="javascript:void(0)">
+            </form>
+            
+            <div class="remark">
+                <ul>
+                  <li>在线支付存款单笔10.00~ 5000.00 元，单人单日最高总计20000元</li>
+                  <li>超出在线支付单日额度限制或单笔大额存款，可使用其它存款方式</li>
+				</ul>
+			</div>
+	</div>
+</div>
+</div>
+</div>
+ <div class="footpanel">
+   <ul>
+	<li>
+        <div class="footMenuTop"><a href="Game.html"><i class="fa fa-gamepad fa-13x"></i></div>
+        <div class="footMenuBottom">进入游戏</a></div>
+    </li>
+	<li>
+        <div class="footMenuTop"><a href="SaveMoney_Main.html"><i class="fa fa-bolt fa-13x"></i></div>
+        <div class="footMenuBottom">快速充值</a></div>
+    </li>
+    <li>
+        <div class="footMenuTop"><a href="Transfer_Indoor.html"><i class="fa fa-random fa-12x"></i></div>
+        <div class="footMenuBottom">户内转帐</a></div>
+    </li>
+	<li>
+        <div class="footMenuTop"><a href="#ServiceONline"><i class="fa fa-whatsapp fa-13x"></i><div>
+        <div class="footMenuBottom">在线客服</a></div>
+    </li>     
+    <li>
+        <div class="footMenuTop"><a href="Member.html"><i class="fa fa-user fa-12x"></i></div>
+        <div class="footMenuBottom">会员中心</a></div>
+    </li>
+   </ul>
+ </div>
+   
+ <div class="remodal" data-remodal-id="modal" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+     <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+     <div class="modal1Title">
+	 <p></p><input type="text" onblur="if(this.value =='') this.value ='帐号'" onfocus="if(this.value=='帐号')this.value=''" value="帐号" class="txt username" name="LoginName" id="LoginName">
+     <p></p><input type="password" onblur="if(this.value =='') this.value ='******'" onfocus="if(this.value=='******')this.value=''" value="******" class="txt password" name="Password" id="Password">
+     </div>
+     <button data-remodal-action="confirm" class="remodal-confirm">确认</button>
+ </div>
+ 
+ 
+ <div class="remodal" data-remodal-id="ServiceONline">
+    <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+    <h2>在线客服</h2>
+       <div class="contact-form">
+		   <form method="post" action="">
+
+            <div class="wordtitle">会员帐号</div>
+			<div><span><input id="userName" type="text" class="textbox" runat="server" placeholder=""></span></div>
+			
+            <div class="wordtitle">输入您的讯息</div>
+			<div><span><input id="userPhone" type="message" class="textbox" runat="server" placeholder=""></span></div>
+			
+	</div>
+    <br>
+     <input id="btnSave" class="remodal-confirm" type="submit" value="开始对话">
+ </div>
+ 
+ 
+ <div class="remodal" data-remodal-id="ServiceQQ">
+    <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+    <h2>QQ客服</h2>
+       <div class="contact-form">
+		   <form method="post" action="">
+
+            <div class="wordtitle">会员帐号</div>
+			<div><span><input id="userName" type="text" class="textbox" runat="server" placeholder=""></span></div>
+			
+            <div class="wordtitle">输入您的讯息</div>
+			<div><span><input id="userPhone" type="message" class="textbox" runat="server" placeholder=""></span></div>
+			
+	</div>
+    <br>
+     <input id="btnSave" class="remodal-confirm" type="submit" value="开始对话">
+ </div>
+     
+</body>
+
+</html>

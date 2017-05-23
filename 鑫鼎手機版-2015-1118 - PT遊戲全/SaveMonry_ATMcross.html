@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>鑫鼎国际，鑫鼎国际娱乐城</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+<link rel="stylesheet" type="text/css" href="css/remodal.css" />
+<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+<script type="text/javascript" src="js/remodal.min.js"></script>
+
+</head><body>
+<header>
+<div class="header_bg">
+<div class="wrap">
+<div class="wrapper">
+  <div class="h_nav">
+		<ul class="nav_back">
+	        <li class="active"><a href="SaveMoney_Main.html"><img src="images/left_arrow.png">返回</a></li>
+            <span>跨行转帐</span>
+	    </ul>
+	</div>
+	<div class="clear"></div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="content_bg">
+<div class="wrap">
+<div class="wrapper">
+	<div class="content">	
+       <div class="contact-form">
+		   <form method="post" action="contact-post.html">
+           
+			<div class="am-radio">
+            <div class="wordtitle">存款方式</div>
+            <div class="am-form-group">
+            <label for="doc-select-1"></label>
+            <select type="text" class="select" id="ddlCreditType" name="ctl00$ctl00$ContentPlaceHolder1$ChildContent1$ddlCreditType">
+	        <option value="1">跨行转账</option>
+            </select>
+            
+           <span class="am-form-caret"></span>
+           </div>
+			
+            <div class="wordtitle">存款人姓名</div>
+            <div><span>
+            <input type="text" placeholder="存款人姓名" id="txtCreditName" maxlength="8" name="ctl00$ctl00$ContentPlaceHolder1$ChildContent1$txtCreditName">            
+            </span></div>
+
+            <div class="wordtitle">存款金额</div>
+            <div><span>
+            <input type="text" placeholder="存款金额" onafterpaste="if(isNaN(value))execCommand('undo')" onkeyup="if(isNaN(value))execCommand('undo')" id="txtCreditAmount" maxlength="9" name="ctl00$ctl00$ContentPlaceHolder1$ChildContent1$txtCreditAmount">            
+            </span></div>
+
+            <div class="wordtitle">存款时间</div>
+            <div><span>
+            <input type="text" onfocus="WdatePicker({startDate:'%y-%M-01 00:00:00',alwaysUseStartDate:true,dateFmt:'yyyy-MM-dd HH:mm:ss',maxDate:new Date()})"  id="txtCreditTime" maxlength="19" value="2015-11-03 14:51:00" name="ctl00$ctl00$ContentPlaceHolder1$ChildContent1$txtCreditTime">            
+            </span></div>
+
+			<div class="am-radio">
+            <div class="wordtitle">收款银行名称</div>
+            <div class="am-form-group">
+            <label for="doc-select-1"></label>
+            <select type="text" id="ddlAccepBank" name="ctl00$ctl00$ContentPlaceHolder1$ChildContent1$ddlAccepBank">
+            <option value="242">建设银行</option></select>     
+            
+            <div class="wordtitle">收款人</div>
+            <div class="liststyle01">
+            <span id="lblAcceptName">罗丁凡</span>            
+            </div>
+
+            <div class="wordtitle">收款卡号</div>
+            <div class="liststyle01">
+            <span id="lblAcceptCardNum">6236683240001203793</span>            
+            </div>
+
+            <div class="wordtitle">开户网点</div>
+            <div class="liststyle01">
+            <span id="lblAcceptNetwork">广东省中山市分行小榄支行</span>            
+            </div>
+                        
+            <input id="lnkSubmitCredit" class="reg_btn" type="submit" value="确认" name="ctl00$ctl00$ContentPlaceHolder1$ChildContent1$lnkSubmitCredit">
+            </form>
+            <div class="remark">
+                  存款步骤：<br>
+                <ul>
+                  <li>系统不定期更改收款账户，每次存款前请确认收款账户，如转入已未使用的收款帐户出现的损失自行承担。最低存款金额 10.00 元；低于10.00元将无法提交存款申请；</li>
+                  <li>请存入特殊金额以便查核，例如1288.16、399.86 等，成功转账后在此页面提交存款信息；</li>
+                  <li>为了您的存款及时到账，请使用实时到账的汇款方式（例如：加急，跨行快汇等）。</li>
+                </ul>
+              <br>
+			</div>
+            
+	</div>
+</div>
+</div>
+</div>
+ <div class="footpanel">
+   <ul>
+	<li>
+        <div class="footMenuTop"><a href="Game.html"><i class="fa fa-gamepad fa-13x"></i></div>
+        <div class="footMenuBottom">进入游戏</a></div>
+    </li>
+	<li>
+        <div class="footMenuTop"><a href="SaveMoney_Main.html"><i class="fa fa-bolt fa-13x"></i></div>
+        <div class="footMenuBottom">快速充值</a></div>
+    </li>
+    <li>
+        <div class="footMenuTop"><a href="Transfer_Indoor.html"><i class="fa fa-random fa-12x"></i></div>
+        <div class="footMenuBottom">户内转帐</a></div>
+    </li>
+	<li>
+        <div class="footMenuTop"><a href="#ServiceONline"><i class="fa fa-whatsapp fa-13x"></i><div>
+        <div class="footMenuBottom">在线客服</a></div>
+    </li>     
+    <li>
+        <div class="footMenuTop"><a href="Member.html"><i class="fa fa-user fa-12x"></i></div>
+        <div class="footMenuBottom">会员中心</a></div>
+    </li>
+   </ul>
+ </div>
+   
+ <div class="remodal" data-remodal-id="modal" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+     <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+     <div class="modal1Title">
+	 <p></p><input type="text" onblur="if(this.value =='') this.value ='帐号'" onfocus="if(this.value=='帐号')this.value=''" value="帐号" class="txt username" name="LoginName" id="LoginName">
+     <p></p><input type="password" onblur="if(this.value =='') this.value ='******'" onfocus="if(this.value=='******')this.value=''" value="******" class="txt password" name="Password" id="Password">
+     </div>
+     <button data-remodal-action="confirm" class="remodal-confirm">确认</button>
+ </div>
+ 
+ 
+ <div class="remodal" data-remodal-id="ServiceONline">
+    <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+    <h2>在线客服</h2>
+       <div class="contact-form">
+		   <form method="post" action="">
+
+            <div class="wordtitle">会员帐号</div>
+			<div><span><input id="userName" type="text" class="textbox" runat="server" placeholder=""></span></div>
+			
+            <div class="wordtitle">输入您的讯息</div>
+			<div><span><input id="userPhone" type="message" class="textbox" runat="server" placeholder=""></span></div>
+			
+	</div>
+    <br>
+     <input id="btnSave" class="remodal-confirm" type="submit" value="开始对话">
+ </div>
+ 
+ 
+ <div class="remodal" data-remodal-id="ServiceQQ">
+    <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+    <h2>QQ客服</h2>
+       <div class="contact-form">
+		   <form method="post" action="">
+
+            <div class="wordtitle">会员帐号</div>
+			<div><span><input id="userName" type="text" class="textbox" runat="server" placeholder=""></span></div>
+			
+            <div class="wordtitle">输入您的讯息</div>
+			<div><span><input id="userPhone" type="message" class="textbox" runat="server" placeholder=""></span></div>
+			
+	</div>
+    <br>
+     <input id="btnSave" class="remodal-confirm" type="submit" value="开始对话">
+ </div>
+     
+</body>
+
+</html>

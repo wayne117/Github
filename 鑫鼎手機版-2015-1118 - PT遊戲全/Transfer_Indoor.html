@@ -1,0 +1,222 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>鑫鼎国际，鑫鼎国际娱乐城</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+<link rel="stylesheet" type="text/css" href="css/remodal.css" />
+<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+<script type="text/javascript" src="js/remodal.min.js"></script>
+
+</head><body>
+<header>
+<div class="header_bg">
+<div class="wrap">
+<div class="wrapper">
+  <div class="h_nav">
+		<ul class="nav_back">
+	        <li class="active"><a href="Member.html"><img src="images/left_arrow.png">返回</a></li>
+            <span>户内转帐</span>
+	   </ul>
+	</div>
+	<div class="clear"></div>
+</div>
+</div>
+</div>
+</div>
+
+<div style="position: absolute;top: 30%;left: 40%;z-Index:1989;" id="wload" class="w-load">
+    <div id="spinDiv" class="spin">
+    </div>
+</div>
+
+<div class="content_Member1">	
+	<div class="grids_of_4">
+		 <div class="grid_1_of_2 images_1_of_2">
+                <img src="images/member/member-10.png">
+			    <div class="gameMoney">75,620,135</div>
+		 </div>
+		 <div class="grid_1_of_2 images_1_of_2" id="divAllReflush">					 
+                 <a href=""><img src="images/member/member-09.png"></a>
+                 <div class="gameName1">刷新余额</div>
+		 </div>
+	<div class="clear"></div>
+</div>
+
+<div class="platform_all">
+    <div class="platform_money">
+        <div class="platform_part01 left">
+
+                    <div class="platform">
+                        <div class="moneyBox1 left" data-type="4">EA</div>
+                        <div class="platform_Number"><h1><span id="spanEa" data-type="4"  style="cursor: pointer;">56</span></h1></div>
+                    </div>
+                    <div class="platform">
+                        <div class="moneyBox2 left" data-type="1">AG</div>
+                        <div class="platform_Number"><h1><span id="spanAg" data-type="1"  style="cursor: pointer;">8845</span></h1></div>
+                    </div>
+                    <div class="platform">
+                        <div class="moneyBox5 left" data-type="2">BBIN</div>
+                        <div class="platform_Number"><h1><span id="spanBbin" data-type="2"  style="cursor: pointer;">2</span></h1></div>
+                    </div>
+                    <div class="platform">
+                        <div class="moneyBox8 left" data-type="6">LB</div>
+                        <div class="platform_Number"><h1><span id="spanLb" data-type="6"  style="cursor: pointer;">1.36</span></h1></div>
+                    </div>
+           <div class="clear"></div>
+        </div> 
+          
+        <div class="platform_part02 right">
+
+                    <div class="platform">
+                        <div class="moneyBox7 left" data-type="10">KG</div>
+                        <h1><span id="spanKg2" data-type="10" style="cursor: pointer;">重试</span></h1>
+                    </div>
+                    <div class="platform">
+                        <div class="moneyBox3 left" data-type="7">PT</div>
+                        <h1><span id="spanPt" data-type="7" style="cursor: pointer;">307.50</span></h1>
+                    </div>
+                    <div class="platform">
+                        <div class="moneyBox4 left" data-type="9">TTG</div>
+                        <h1><span id="spanTt" data-type="9" style="cursor: pointer;">0.00</span></h1>
+                    </div>
+                    <div class="platform">
+                        <div class="moneyBox9 left" data-type="3">体育</div>
+                        <h1><span id="spanBet" data-type="3" style="cursor: pointer;">0.00</span></h1>
+                    </div>
+          </div>  
+   </div>
+ <div class="clear"></div>
+</div>
+
+<div class="content_bg">
+<div class="wrap">
+<div class="wrapper">
+	<div class="content">	
+       <div class="contact-form">
+		   <form method="post" action="">
+
+			<div class="am-radio">
+            <div class="wordtitle">转账模式</div>
+            <div class="am-form-group">
+            <label for="rdoIn"></label>
+            <select id="doc-select-1" type="text">
+            <option value="option1">转账模式</option>
+                      
+            <option id="rdoIn" name="type" type="radio" checked="checked" value="option2">转入游戏账户</option>
+            <option id="rdoOut" name="type" type="radio" value="option3">转入主账户</option>
+            </select>
+           </div>
+
+            <div class="wordtitle">游戏平台</div>
+            <div><span>
+            <label for="doc-select-1"></label>
+            <select id="ddlPlatformList" type="text">
+            <option value="1">EA 平台</option>
+            <option value="9">AG 平台</option>
+            <option value="3">BBIN 平台</option>
+            <option value="15">LB 平台</option>
+            <option value="17">KG 平台</option>
+            <option value="13">PT 平台</option>
+            <option value="11">TTG 平台</option>
+            <option value="7">体育平台</option>
+            </select>            
+            </span></div>
+
+            <div class="wordtitle">转账金额</div>
+            <div><span>
+            <input type="text" class="textbox" onafterpaste="this.value=this.value.replace(/\D/g,'')" onkeyup="this.value=this.value.replace(/\D/g,'')" placeholder="转账金额" maxlength="9" id="txtTransferAmount">            
+            </span></div>
+            
+            <input id="btnConfirm" class="reg_btn" type="submit" value="确认">
+            </form>
+            
+            <div class="remark">
+                  存款步骤：<br>
+                <ul>
+                  <li>最小转账金额为 : 0.00元 / 最大转账金额 : 100000.00元</li>
+                  <li>转账前请退出游戏或游戏投注界面；</li>
+                  <li>不参与活动时, 户内转账金额不能少于 1元，户内转账不收取任何手续费；</li>
+                  <li>如遇网速较慢时，请耐心等候片刻，不要多次重复提交；</li>
+                </ul>
+			</div>
+	</div>
+</div>
+</div>
+</div>
+ <div class="footpanel">
+   <ul>
+	<li>
+        <div class="footMenuTop"><a href="Game.html"><i class="fa fa-gamepad fa-13x"></i></div>
+        <div class="footMenuBottom">进入游戏</a></div>
+    </li>
+	<li>
+        <div class="footMenuTop"><a href="SaveMoney_Main.html"><i class="fa fa-bolt fa-13x"></i></div>
+        <div class="footMenuBottom">快速充值</a></div>
+    </li>
+    <li>
+        <div class="footMenuTop"><a href="Transfer_Indoor.html"><i class="fa fa-random fa-12x"></i></div>
+        <div class="footMenuBottom">户内转帐</a></div>
+    </li>
+	<li>
+        <div class="footMenuTop"><a href="#ServiceONline"><i class="fa fa-whatsapp fa-13x"></i><div>
+        <div class="footMenuBottom">在线客服</a></div>
+    </li>     
+    <li>
+        <div class="footMenuTop"><a href="Member.html"><i class="fa fa-user fa-12x"></i></div>
+        <div class="footMenuBottom">会员中心</a></div>
+    </li>
+   </ul>
+ </div>
+   
+ <div class="remodal" data-remodal-id="modal" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+     <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+     <div class="modal1Title">
+	 <p></p><input type="text" onblur="if(this.value =='') this.value ='帐号'" onfocus="if(this.value=='帐号')this.value=''" value="帐号" class="txt username" name="LoginName" id="LoginName">
+     <p></p><input type="password" onblur="if(this.value =='') this.value ='******'" onfocus="if(this.value=='******')this.value=''" value="******" class="txt password" name="Password" id="Password">
+     </div>
+     <button data-remodal-action="confirm" class="remodal-confirm">确认</button>
+ </div>
+ 
+ 
+ <div class="remodal" data-remodal-id="ServiceONline">
+    <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+    <h2>在线客服</h2>
+       <div class="contact-form">
+		   <form method="post" action="">
+
+            <div class="wordtitle">会员帐号</div>
+			<div><span><input id="userName" type="text" class="textbox" runat="server" placeholder=""></span></div>
+			
+            <div class="wordtitle">输入您的讯息</div>
+			<div><span><input id="userPhone" type="message" class="textbox" runat="server" placeholder=""></span></div>
+			
+	</div>
+    <br>
+     <input id="btnSave" class="remodal-confirm" type="submit" value="开始对话">
+ </div>
+ 
+ 
+ <div class="remodal" data-remodal-id="ServiceQQ">
+    <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+    <h2>QQ客服</h2>
+       <div class="contact-form">
+		   <form method="post" action="">
+
+            <div class="wordtitle">会员帐号</div>
+			<div><span><input id="userName" type="text" class="textbox" runat="server" placeholder=""></span></div>
+			
+            <div class="wordtitle">输入您的讯息</div>
+			<div><span><input id="userPhone" type="message" class="textbox" runat="server" placeholder=""></span></div>
+			
+	</div>
+    <br>
+     <input id="btnSave" class="remodal-confirm" type="submit" value="开始对话">
+ </div>
+     
+</body>
+
+</html>
